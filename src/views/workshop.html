@@ -24,7 +24,51 @@
 
     <!-- TABS: https://www.lightningdesignsystem.com/components/tabs/?modifiers=.slds-is-active&variant=base -->
     <!-- ACTIVITY TIMELINE - replace "Item One Content": https://www.lightningdesignsystem.com/components/activity-timeline/?variant=base -->
-      <!-- INSERT CODE HERE -->
+    <div class="slds-p-around_small slds-card slds-card_boundary">
+        <div class="slds-m-bottom_medium slds-text-heading_small">Quick Actions</div>
+        <lightning:layout>
+            <lightning:layoutItem flexibility="grow">
+                <div class="slds-m-bottom_x-small slds-align_absolute-center">
+                    <lightning:icon iconName="action:share_post" size="small" variant="slds-icon-inverse"></lightning:icon>
+                </div>
+                <div class="slds-align_absolute-center">
+                    <div class="slds-text-title slds-text-color_weak">Post</div>
+                </div>
+            </lightning:layoutItem>
+            <lightning:layoutItem flexibility="grow">
+                <div class="slds-m-bottom_x-small slds-align_absolute-center">
+                    <lightning:icon iconName="action:new_task" size="small" variant="slds-icon-inverse"></lightning:icon>
+                </div>
+                <div class="slds-align_absolute-center">
+                    <div class="slds-text-title slds-text-color_weak">Task</div>
+                </div>
+            </lightning:layoutItem>
+            <lightning:layoutItem flexibility="grow">
+                <div class="slds-m-bottom_x-small slds-align_absolute-center">
+                    <lightning:icon iconName="action:new_event" size="small" variant="slds-icon-inverse"></lightning:icon>
+                </div>
+                <div class="slds-align_absolute-center">
+                    <div class="slds-text-title slds-text-color_weak">Event</div>
+                </div>
+            </lightning:layoutItem>
+            <lightning:layoutItem flexibility="grow">
+                <div class="slds-m-bottom_x-small slds-align_absolute-center">
+                    <lightning:icon iconName="action:add_contact" size="small" variant="slds-icon-inverse"></lightning:icon>
+                </div>
+                <div class="slds-align_absolute-center">
+                    <div class="slds-text-title slds-text-color_weak">Contact</div>
+                </div>
+            </lightning:layoutItem>
+            <lightning:layoutItem flexibility="grow">
+                <div class="slds-m-bottom_x-small slds-align_absolute-center">
+                    <lightning:icon iconName="action:more" size="small" variant="slds-icon-inverse"></lightning:icon>
+                </div>
+                <div class="slds-align_absolute-center">
+                    <div class="slds-text-title slds-text-color_weak">More</div>
+                </div>
+            </lightning:layoutItem>
+        </lightning:layout>
+    </div>
     <!-- /TABS -->
 
   </div>
