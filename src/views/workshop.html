@@ -24,54 +24,89 @@
 
     <!-- TABS: https://www.lightningdesignsystem.com/components/tabs/?modifiers=.slds-is-active&variant=base -->
     <!-- ACTIVITY TIMELINE - replace "Item One Content": https://www.lightningdesignsystem.com/components/activity-timeline/?variant=base -->
-    <div class="slds-p-around_small slds-card slds-card_boundary">
-        <div class="slds-m-bottom_medium slds-text-heading_small">Quick Actions</div>
-        <lightning:layout>
-            <lightning:layoutItem flexibility="grow">
-                <div class="slds-m-bottom_x-small slds-align_absolute-center">
-                    <lightning:icon iconName="action:share_post" size="small" variant="slds-icon-inverse"></lightning:icon>
+    <div class="slds-clearfix slds-p-around_small slds-card slds-card_boundary visual-area-positions--left-half" dropzone="div">
+        <div class="visual-area-positions--left-half" closertotopclass="project-canvas-element--closer-to-top">
+            <div class="slds-m-bottom_medium slds-text-heading_small">Quick Actions</div>
+        </div>
+        <div class="visual-area-positions--left-half" closertotopclass="project-canvas-element--closer-to-top">
+            <div class="slds-grid slds-grid_pull-padded-medium">
+                <div class="slds-clearfix slds-col slds-p-horizontal_medium visual-area-positions--left-half" dropzone="grid column 0">
+                    <div class="visual-area-positions--left-half" closertotopclass="project-canvas-element--closer-to-top">
+                        <div class="slds-clearfix slds-m-bottom_x-small slds-align_absolute-center visual-area-positions--left-half" dropzone="div">
+                            <div class="visual-area-positions--left-half" closertotopclass="project-canvas-element--closer-to-top"><span class="slds-icon_container slds-icon-action-share-post " title=""> <svg class="slds-icon slds-icon_small slds-icon-text-slds-icon-inverse"> <use xlink:href="assets/@salesforce-ux/design-system/assets/icons/action-sprite/svg/symbols.svg#share_post"></use></svg></span></div>
+                        </div>
+                    </div>
+                    <div class="visual-area-positions--left-half" closertotopclass="project-canvas-element--closer-to-top">
+                        <div class="slds-clearfix slds-align_absolute-center" dropzone="div">
+                            <div class="visual-area-positions--left-half" closertotopclass="project-canvas-element--closer-to-top">
+                                <div class="slds-text-title slds-text-color_weak">Post</div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div class="slds-align_absolute-center">
-                    <div class="slds-text-title slds-text-color_weak">Post</div>
+                <div class="slds-clearfix slds-col slds-p-horizontal_medium visual-area-positions--left-half" dropzone="grid column 1">
+                    <div class="visual-area-positions--left-half" closertotopclass="project-canvas-element--closer-to-top">
+                        <div class="slds-clearfix slds-m-bottom_x-small slds-align_absolute-center visual-area-positions--left-half" dropzone="div">
+                            <div class="visual-area-positions--left-half" closertotopclass="project-canvas-element--closer-to-top"><span class="slds-icon_container slds-icon-action-new-task " title=""> <svg class="slds-icon slds-icon_small slds-icon-text-slds-icon-inverse"> <use xlink:href="assets/@salesforce-ux/design-system/assets/icons/action-sprite/svg/symbols.svg#new_task"></use></svg></span></div>
+                        </div>
+                    </div>
+                    <div class="visual-area-positions--left-half" closertotopclass="project-canvas-element--closer-to-top">
+                        <div class="slds-clearfix slds-align_absolute-center visual-area-positions--left-half" dropzone="div">
+                            <div class="visual-area-positions--left-half" closertotopclass="project-canvas-element--closer-to-top">
+                                <div class="slds-text-title slds-text-color_weak">Task</div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-            </lightning:layoutItem>
-            <lightning:layoutItem flexibility="grow">
-                <div class="slds-m-bottom_x-small slds-align_absolute-center">
-                    <lightning:icon iconName="action:new_task" size="small" variant="slds-icon-inverse"></lightning:icon>
+                <div class="slds-clearfix slds-col slds-p-horizontal_medium visual-area-positions--left-half" dropzone="grid column 2">
+                    <div class="visual-area-positions--left-half" closertotopclass="project-canvas-element--closer-to-top">
+                        <div class="slds-clearfix slds-m-bottom_x-small slds-align_absolute-center visual-area-positions--left-half" dropzone="div">
+                            <div class="visual-area-positions--left-half" closertotopclass="project-canvas-element--closer-to-top"><span class="slds-icon_container slds-icon-action-new-event " title=""> <svg class="slds-icon slds-icon_small slds-icon-text-slds-icon-inverse"> <use xlink:href="assets/@salesforce-ux/design-system/assets/icons/action-sprite/svg/symbols.svg#new_event"></use></svg></span></div>
+                        </div>
+                    </div>
+                    <div class="visual-area-positions--left-half" closertotopclass="project-canvas-element--closer-to-top">
+                        <div class="slds-clearfix slds-align_absolute-center" dropzone="div">
+                            <div class="visual-area-positions--left-half" closertotopclass="project-canvas-element--closer-to-top">
+                                <div class="slds-text-title slds-text-color_weak">Event</div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div class="slds-align_absolute-center">
-                    <div class="slds-text-title slds-text-color_weak">Task</div>
+                <div class="slds-clearfix slds-col slds-p-horizontal_medium visual-area-positions--left-half" dropzone="grid column 3">
+                    <div class="visual-area-positions--right-half" closertotopclass="project-canvas-element--closer-to-top">
+                        <div class="slds-clearfix slds-m-bottom_x-small slds-align_absolute-center visual-area-positions--right-half" dropzone="div">
+                            <div class="visual-area-positions--right-half" closertotopclass="project-canvas-element--closer-to-top"><span class="slds-icon_container slds-icon-action-add-contact " title=""> <svg class="slds-icon slds-icon_small slds-icon-text-slds-icon-inverse"> <use xlink:href="assets/@salesforce-ux/design-system/assets/icons/action-sprite/svg/symbols.svg#add_contact"></use></svg></span></div>
+                        </div>
+                    </div>
+                    <div class="visual-area-positions--right-half" closertotopclass="project-canvas-element--closer-to-top">
+                        <div class="slds-clearfix slds-align_absolute-center" dropzone="div">
+                            <div class="visual-area-positions--right-half" closertotopclass="project-canvas-element--closer-to-top">
+                                <div class="slds-text-title slds-text-color_weak">Contact</div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-            </lightning:layoutItem>
-            <lightning:layoutItem flexibility="grow">
-                <div class="slds-m-bottom_x-small slds-align_absolute-center">
-                    <lightning:icon iconName="action:new_event" size="small" variant="slds-icon-inverse"></lightning:icon>
+                <div class="slds-clearfix slds-col slds-p-horizontal_medium visual-area-positions--left-half" dropzone="grid column 4">
+                    <div class="visual-area-positions--right-half" closertotopclass="project-canvas-element--closer-to-top">
+                        <div class="slds-clearfix slds-m-bottom_x-small slds-align_absolute-center visual-area-positions--right-half" dropzone="div">
+                            <div class="visual-area-positions--right-half" closertotopclass="project-canvas-element--closer-to-top"><span class="slds-icon_container slds-icon-action-more " title=""> <svg class="slds-icon slds-icon_small slds-icon-text-slds-icon-inverse"> <use xlink:href="assets/@salesforce-ux/design-system/assets/icons/action-sprite/svg/symbols.svg#more"></use></svg></span></div>
+                        </div>
+                    </div>
+                    <div class="visual-area-positions--right-half" closertotopclass="project-canvas-element--closer-to-top">
+                        <div class="slds-clearfix slds-align_absolute-center" dropzone="div">
+                            <div class="visual-area-positions--right-half" closertotopclass="project-canvas-element--closer-to-top">
+                                <div class="slds-text-title slds-text-color_weak">More</div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div class="slds-align_absolute-center">
-                    <div class="slds-text-title slds-text-color_weak">Event</div>
-                </div>
-            </lightning:layoutItem>
-            <lightning:layoutItem flexibility="grow">
-                <div class="slds-m-bottom_x-small slds-align_absolute-center">
-                    <lightning:icon iconName="action:add_contact" size="small" variant="slds-icon-inverse"></lightning:icon>
-                </div>
-                <div class="slds-align_absolute-center">
-                    <div class="slds-text-title slds-text-color_weak">Contact</div>
-                </div>
-            </lightning:layoutItem>
-            <lightning:layoutItem flexibility="grow">
-                <div class="slds-m-bottom_x-small slds-align_absolute-center">
-                    <lightning:icon iconName="action:more" size="small" variant="slds-icon-inverse"></lightning:icon>
-                </div>
-                <div class="slds-align_absolute-center">
-                    <div class="slds-text-title slds-text-color_weak">More</div>
-                </div>
-            </lightning:layoutItem>
-        </lightning:layout>
+            </div>
+        </div>
     </div>
     <!-- /TABS -->
 
   </div>
+
   <!-- /COLUMN #1 -->
 
   <!-- COLUMN #2 -->
