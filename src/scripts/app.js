@@ -13,7 +13,7 @@
 
 const warningStyles = `
   color: #fff;
-  background-color: #FFFFFF;
+  background-color: #ffffff;
   display: block;
   text-align: center;
   padding: 8px 32px;
