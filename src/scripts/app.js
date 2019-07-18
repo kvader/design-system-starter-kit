@@ -18,7 +18,6 @@ const warningStyles = `
   text-align: center;
   padding: 8px 32px;
   font: 100 16px/28px sans-serif;
-  background-image: linear-gradient(45deg,rgba(0,0,0,.025) 25%,transparent 25%,transparent 50%,rgba(0,0,0,.025) 50%,rgba(0,0,0,.025) 75%,transparent 75%,transparent);
   background-size: 64px 64px;
 `
 console.log('%c%s', warningStyles, 'Please do not use the provided JavaScript in production!')
